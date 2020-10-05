@@ -1,0 +1,13 @@
+.generator {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.generator__options {
+    flex: .5;
+}
+
+.generator__view {
+    flex: .5;
+    padding: 1rem;
+}

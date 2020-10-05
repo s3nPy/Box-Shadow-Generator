@@ -1,0 +1,30 @@
+.view-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    margin: 0 auto;
+    background-color: white;
+    filter: invert(.8);
+    z-index: 1;
+}
+
+.view-box__shadow {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+
+    box-shadow: 1rem 1rem 10px 1px;
+    color: red;
+
+    transition: color 1s linear;
+    z-index: 0;
+}
+
+.view-css {
+    background-color: #CBCBCB;
+
+    margin-top: 10rem;
+    font-size: 1.3rem;
+    z-index: 2;
+}

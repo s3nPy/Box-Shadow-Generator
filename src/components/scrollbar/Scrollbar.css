@@ -1,0 +1,48 @@
+
+.scrollbar {
+    padding: 1rem;
+}
+
+.scrollbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.scrollbar-body {
+    position: relative;
+    width: 100%;
+    height: .5rem;
+
+    margin-top: 1rem;
+    user-select: none;
+}
+
+.scrollbar-body > .scrollbar__bar {
+    width: inherit;
+    height: inherit;
+
+    background-color: #F0F0F0;
+    border: 1px solid #B2B2B2;
+    border-radius: 1rem;
+}
+
+.scrollbar-body > .scrollbar__scroll {
+    position: absolute;
+    top: -.5rem;
+    left: 0;
+
+    width: .5rem;
+    height: 1.5rem;
+
+    background-color: #E4E4E4;
+    border: 1px solid #7D7D7D;
+    border-radius: .5rem;
+
+    cursor: pointer;
+}
+
+.scrollbar__scroll:hover {
+    background-color: #ECECEC;
+}

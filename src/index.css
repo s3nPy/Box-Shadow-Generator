@@ -1,3 +1,12 @@
+*, *:before, *:after {
+  margin: 0;
+}
+
+html {
+  filter: invert(.9);
+  background-color: white;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
