@@ -1,5 +1,5 @@
 # Box Shadow Generator
-![alt text](placeholder "Box Shadow Generator")
+![alt text](https://github.com/s3nPy/Box-Shadow-Generator/blob/master/screens/main.PNG?raw=true "Box Shadow Generator")
 ---
 ## Overview
 
